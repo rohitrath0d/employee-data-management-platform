@@ -18,7 +18,7 @@ model Employee {
   name        String
   email       String  @unique
   position    String
-  phone       Int
+  phone       String
   department  String
   createdAt   DateTime @default(now())
 }
